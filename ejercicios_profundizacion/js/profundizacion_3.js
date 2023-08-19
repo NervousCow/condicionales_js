@@ -22,3 +22,13 @@
 // investigue y busque como utilizarla.
 
 // En cada caso imprimir en pantalla el resultado
+
+alert("Ingrese tres valores de temperatura en grados celsius")
+
+const temp1 = parseFloat(prompt('Ingrese un primer valor de temperatura:'));
+const temp2 = parseFloat(prompt('Ingrese un segundo valor de temperatura:'));
+const temp3 = parseFloat(prompt('Ingrese un tercer valor de temperatura:'));
+
+console.log("La temperatura máxima: " + Math.max(temp1, temp2, temp3));
+
+console.log("La temperatura mínima: " + Math.min(temp1, temp2, temp3));

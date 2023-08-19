@@ -12,3 +12,13 @@
 // Luego el programa debe imprimir la cantidad de caracteres de cada palabra
 // ingresada utilizando .length 
 
+
+alert("A constinuación ingrese tres palabras cualquiera")
+
+const palabra1 = String(prompt('Ingrese la primer palabra:'));
+const palabra2 = String(prompt('Ingrese la segunda palabra:'));
+const palabra3 = String(prompt('Ingrese la tercer palabra:'));
+
+console.log(palabra1 + " tiene una longitud de " + palabra1.length + " caracteres.")
+console.log(palabra2 + " tiene una longitud de " + palabra2.length + " caracteres.")
+console.log(palabra3 + " tiene una longitud de " + palabra3.length + " caracteres.")
